@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kurniawan T. Waskito · Hidrodinamika Kapal & Energi Laut</title>
+<meta name="description" content="Dosen dan peneliti Departemen Teknik Mesin Universitas Indonesia: hidrodinamika kapal, energi gelombang, floating PV, struktur lepas pantai, dan hidrogen hijau. Kepala MARDEV Lab.">
+<link rel="canonical" href="https://kurniawanwaskito.com/">
+<link rel="alternate" hreflang="id" href="https://kurniawanwaskito.com/">
+<link rel="alternate" hreflang="en" href="https://kurniawanwaskito.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://kurniawanwaskito.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kurniawan T. Waskito">
+<meta property="og:title" content="Kurniawan T. Waskito · Hidrodinamika Kapal & Energi Laut">
+<meta property="og:description" content="Dosen dan peneliti Departemen Teknik Mesin Universitas Indonesia: hidrodinamika kapal, energi gelombang, floating PV, struktur lepas pantai, dan hidrogen hijau. Kepala MARDEV Lab.">
+<meta property="og:url" content="https://kurniawanwaskito.com/">
+<meta property="og:image" content="https://kurniawanwaskito.com/assets/img/og-image.jpg">
+<meta property="og:locale" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A2E44">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#155A75}
+a{color:#7FE3E0}a:hover{color:#8FE8E3}
+.tg{background-image:linear-gradient(rgba(63,208,201,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(63,208,201,.07) 1px,transparent 1px);background-size:40px 40px}
+.tgl{background-image:linear-gradient(rgba(11,31,51,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(11,31,51,.05) 1px,transparent 1px);background-size:32px 32px}
+.navlink{color:#DDF1F5;text-decoration:none;padding:10px 0}.navlink:hover{color:#FFFFFF}
+.lk{color:#0E6E73;text-decoration:none;font-weight:600}.lk:hover{color:#07454A;text-decoration:underline}
+.tag{background:#D3ECF3;padding:5px 9px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:#0A2A3D}
+.ref{display:flex;flex-direction:column;gap:2px;padding:10px 0;border-top:1px solid #DCEBF0;text-decoration:none;color:#0A2A3D}
+.ref:hover .rt{color:#0E6E73;text-decoration:underline}
+.mono{font-family:'IBM Plex Mono',monospace}
+</style>
+<style>html{scroll-behavior:smooth}img{max-width:100%}*{box-sizing:border-box}
+@media (max-width:720px){.row{grid-template-columns:1fr !important;gap:4px}h1{font-size:38px !important}}</style>
+</head>
+<body>
+<div style="font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #0A2A3D; background: #EAF5F9; width: 100%">
+
+<!-- NAV -->
+<header style="background: #0A2E44; border-bottom: 1px solid #2A6A85">
+<nav aria-label="Navigasi utama" style="max-width: 1240px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 16px">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none">
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true"><rect x="0.75" y="0.75" width="42.5" height="42.5" stroke="#7FE3E0" stroke-width="1.5"/><path d="M6 25 C11 20 16 20 22 25 S33 30 38 25" stroke="#7FE3E0" stroke-width="2"/><path d="M6 32 C11 29 16 29 22 32 S33 35 38 32" stroke="#7FE3E0" stroke-width="1.2" opacity="0.6"/><circle cx="31" cy="12" r="4" stroke="#F6C343" stroke-width="1.5"/></svg>
+<span style="display: flex; flex-direction: column">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 17px; color: #FFFFFF">Kurniawan T. Waskito</span>
+<span class="mono" style="font-size: 12px; color: #CFE9F0">Marine Hydrodynamics &amp; Ocean Energy</span>
+</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 24px; font-size: 15px; font-weight: 500">
+<a class="navlink" href="#riset">Riset</a>
+<a class="navlink" href="publikasi.html">Publikasi</a>
+<a class="navlink" href="#mardev">MARDEV Lab</a>
+<a class="navlink" href="topik-bimbingan.html">Topik Bimbingan</a>
+<a class="navlink" href="industri.html">Industri</a>
+<a class="navlink" href="#kontak">Kontak</a>
+<span class="mono" style="display: flex; border: 1px solid #3A7891; font-size: 13px">
+<span aria-current="true" style="background: #7FE3E0; color: #0A2A3D; padding: 0 12px; min-height: 40px; display: flex; align-items: center; font-weight: 600">ID</span>
+<a href="en/index.html" lang="en" aria-label="English version" style="color: #DDF1F5; text-decoration: none; padding: 0 12px; min-height: 40px; display: flex; align-items: center">EN</a>
+</span>
+<a href="assets/cv/CV_Kurniawan_Teguh_Waskito_2026.pdf" download="CV_Kurniawan_Teguh_Waskito_2026.pdf" style="border: 1px solid #F6C343; color: #FFFFFF; text-decoration: none; padding: 9px 16px; min-height: 40px; box-sizing: border-box; display: flex; align-items: center; font-size: 14px">Unduh CV</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" class="tg" style="background-color: #155A75; color: #FFFFFF; position: relative; overflow: hidden">
+<div style="max-width: 1240px; margin: 0 auto; padding: 80px 24px 48px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px 56px; position: relative">
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #7FE3E0; text-transform: uppercase">Hidrodinamika Kelautan · Energi Terbarukan Laut</span>
+<h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 58px; line-height: 1.05; letter-spacing: -1px">Kurniawan Teguh Waskito, Ph.D.</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #DDF1F5; max-width: 640px">Dosen Departemen Teknik Mesin dan peneliti Tropical Renewable Energy Center, Universitas Indonesia; Kepala Laboratorium MARDEV. Meneliti cara struktur terapung merespons gelombang, dari lambung kapal hingga pembangkit energi di laut. Ph.D. Osaka University, postdoc NMRI dan Kobe University.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 4px">
+<a href="#riset" style="background: #F6C343; color: #0A2A3D; text-decoration: none; font-weight: 600; padding: 14px 24px; min-height: 48px; box-sizing: border-box; display: flex; align-items: center">Lihat bidang riset</a>
+<a href="#kontak" style="border: 1.5px solid #7FE3E0; color: #FFFFFF; text-decoration: none; font-weight: 600; padding: 14px 24px; min-height: 48px; box-sizing: border-box; display: flex; align-items: center">Ajak berkolaborasi</a>
+</div>
+<div class="mono" style="display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px">
+<a href="https://orcid.org/0000-0002-9719-9559" style="color: #DDF1F5">ORCID ↗</a>
+<a href="https://scholar.google.com/citations?user=eq8t2dUAAAAJ&amp;hl=id" style="color: #DDF1F5">Google Scholar ↗</a>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=56517004200" style="color: #DDF1F5">Scopus ID 56517004200 ↗</a>
+<a href="https://scholar.ui.ac.id/en/persons/kurniawan-teguh-waskito/" style="color: #DDF1F5">Scholar UI ↗</a>
+<a href="https://mech.eng.ui.ac.id/personnel/kurniawan-teguh-waskito-s-t-m-t-ph-d/" style="color: #DDF1F5">Profil DTM UI ↗</a>
+<a href="https://www.linkedin.com/in/kurniawan-teguh-waskito-1046b752/" style="color: #DDF1F5">LinkedIn ↗</a>
+</div>
+</div>
+<div style="flex: 1 1 320px; max-width: 380px; position: relative">
+<div style="position: absolute; top: -10px; left: -10px; right: 10px; bottom: 34px; border: 1px solid #7FE3E0"></div>
+<img src="assets/img/kurniawan-waskito.jpg" alt="Foto Kurniawan Teguh Waskito" style="position: relative; display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: #0D3F58">
+<div class="mono" style="position: relative; margin-top: 12px; display: flex; justify-content: space-between; font-size: 12px; color: #DDF1F5">
+<span>Ph.D. · Osaka University</span><span>Kepala Lab MARDEV</span>
+</div>
+</div>
+</div>
+<!-- HERO PHOTOS -->
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px 72px; position: relative"><div style="display: flex; flex-wrap: wrap; gap: 8px">
+<figure style="flex: 2 1 260px; margin: 0; position: relative; height: 210px; overflow: hidden; background: #0D3F58"><img src="assets/img/hero-angin-albany.jpg" alt="Ladang angin pesisir di Albany, Australia Barat" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%"><figcaption class="mono" style="position: absolute; left: 10px; bottom: 10px; background: rgba(10, 42, 61, 0.82); color: #FFFFFF; font-size: 12px; padding: 5px 9px">Angin pesisir · Albany</figcaption></figure>
+<figure style="flex: 1 1 140px; margin: 0; position: relative; height: 210px; overflow: hidden; background: #0D3F58"><img src="assets/img/hero-kapal.jpg" alt="Kapal kontainer berlayar di laut lepas, dilihat dari atas" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%"><figcaption class="mono" style="position: absolute; left: 10px; bottom: 10px; background: rgba(10, 42, 61, 0.82); color: #FFFFFF; font-size: 12px; padding: 5px 9px">Kapal</figcaption></figure>
+<figure style="flex: 1 1 140px; margin: 0; position: relative; height: 210px; overflow: hidden; background: #0D3F58"><img src="assets/img/hero-floating-pv.jpg" alt="Hamparan panel surya terapung di permukaan waduk" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%"><figcaption class="mono" style="position: absolute; left: 10px; bottom: 10px; background: rgba(10, 42, 61, 0.82); color: #FFFFFF; font-size: 12px; padding: 5px 9px">Floating PV</figcaption></figure>
+<figure style="flex: 1 1 140px; margin: 0; position: relative; height: 210px; overflow: hidden; background: #0D3F58"><img src="assets/img/hero-ombak.jpg" alt="Puncak ombak pecah berkilau diterpa matahari sore" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 45% 45%"><figcaption class="mono" style="position: absolute; left: 10px; bottom: 10px; background: rgba(10, 42, 61, 0.82); color: #FFFFFF; font-size: 12px; padding: 5px 9px">Energi gelombang</figcaption></figure>
+<figure style="flex: 1 1 140px; margin: 0; position: relative; height: 210px; overflow: hidden; background: #0D3F58"><img src="assets/img/hero-turbin-arus-selat-haya.jpg" alt="Platform uji turbin arus laut di Selat Haya, Maluku, bersama tim Universitas Pattimura" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 56% 50%"><figcaption class="mono" style="position: absolute; left: 10px; bottom: 10px; background: rgba(10, 42, 61, 0.82); color: #FFFFFF; font-size: 12px; padding: 5px 9px">Turbin arus</figcaption></figure>
+<figure style="flex: 1 1 140px; margin: 0; position: relative; height: 210px; overflow: hidden; background: #0D3F58"><img src="assets/img/hero-elektroliser-aem.jpg" alt="Rig uji elektroliser AEM dan fuel cell di laboratorium, terhubung ke potensiostat Autolab" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 32% 70%"><figcaption class="mono" style="position: absolute; left: 10px; bottom: 10px; background: rgba(10, 42, 61, 0.82); color: #FFFFFF; font-size: 12px; padding: 5px 9px">Elektroliser AEM</figcaption></figure>
+<figure style="flex: 1 1 140px; margin: 0; position: relative; height: 210px; overflow: hidden; background: #0D3F58"><img src="assets/img/hero-copv-hidrogen.jpg" alt="Prototipe tangki hidrogen tekanan tinggi COPV tipe IV hasil filament winding serat karbon" loading="lazy" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 88%"><figcaption class="mono" style="position: absolute; left: 10px; bottom: 10px; background: rgba(10, 42, 61, 0.82); color: #FFFFFF; font-size: 12px; padding: 5px 9px">Tangki H₂ COPV</figcaption></figure>
+</div></div>
+</section>
+
+<!-- STATS -->
+<section style="background: #0D3F58; color: #FFFFFF; border-top: 1px solid #2A6A85; border-bottom: 1px solid #2A6A85">
+<div style="max-width: 1240px; margin: 0 auto; padding: 36px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">23</span><span style="font-size: 15px; color: #DDF1F5">Artikel jurnal, ditambah 8 prosiding dan 1 buku</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">12</span><span style="font-size: 15px; color: #DDF1F5">Hibah riset sejak 2022, 6 sebagai ketua peneliti</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">17</span><span style="font-size: 15px; color: #DDF1F5">Proyek dan pelatihan industri energi, migas, dan manufaktur</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">10+</span><span style="font-size: 15px; color: #DDF1F5">Tahun mengajar di Universitas Indonesia (sejak 2016)</span></div>
+</div>
+</section>
+
+<!-- RESEARCH -->
+<section id="riset" class="tgl" style="background-color: #EAF5F9">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 44px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">01 · Bidang riset</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 42px; line-height: 1.1">Dari permukaan hingga lepas pantai</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; color: #2C4A5C">Empat bidang riset, diurutkan menurut tempat fenomenanya terjadi di kolom air: dari permukaan laut, zona gelombang, sarat lambung kapal, hingga struktur yang ditambat di perairan dalam.</p>
+</div>
+<div class="mono" style="display: flex; align-items: center; gap: 8px; font-size: 12px; color: #2C4A5C">
+<span>Permukaan</span>
+<svg width="120" height="12" viewBox="0 0 120 12" fill="none" aria-hidden="true"><path d="M0 6 H112 M106 1 L112 6 L106 11" stroke="#0E6E73" stroke-width="1.5"/></svg>
+<span>Laut dalam</span>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr)); gap: 24px">
+
+<!-- 1. Permukaan -->
+<article style="background: #FFFFFF; border: 1px solid #C3DDE6; display: flex; flex-direction: column">
+<div style="background-color: #0A2E44; position: relative">
+<div style="display: grid; grid-template-columns: 3fr 2fr; gap: 2px; aspect-ratio: 16 / 9; overflow: hidden"><img src="assets/img/riset-fpv-barge-brin.jpg" alt="Model floating PV tipe barge dengan empat tali tambat saat diuji di wave flume BRIN Yogyakarta, Mei 2026, dilihat dari balik dinding kaca" style="display: block; width: 100%; height: 100%; min-width: 0; object-fit: cover; object-position: 50% 30%"><img src="assets/img/riset-vawt-tmu.jpg" alt="Model turbin angin sumbu vertikal (VAWT) berbilah heliks saat diuji di wind tunnel Tokyo Metropolitan University, April 2026" style="display: block; width: 100%; height: 100%; min-width: 0; object-fit: cover; object-position: 50% 40%"></div>
+<span class="mono" style="position: absolute; top: 10px; left: 10px; font-size: 12px; font-weight: 600; color: #FFFFFF; background: rgba(10,46,68,0.85); padding: 3px 7px">0 m · PERMUKAAN</span>
+<span class="mono" style="display: block; font-size: 12px; line-height: 1.4; color: #FFFFFF; background: rgba(10,46,68,0.85); padding: 5px 10px">Kiri: uji model FPV barge tertambat · Wave flume BRIN Yogyakarta, Mei 2026. Kanan: uji model VAWT heliks · Wind tunnel Tokyo Metropolitan University, April 2026</span>
+</div>
+<div style="padding: 26px; display: flex; flex-direction: column; gap: 12px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px">Floating PV &amp; turbin angin sumbu vertikal</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #2C4A5C">Pembangkit listrik nearshore yang memanfaatkan permukaan laut: modul surya terapung yang harus tetap stabil dan tertambat di bawah gelombang, serta VAWT untuk angin kecepatan rendah di pesisir tropis.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Seakeeping FPV</span><span class="tag">Mooring</span><span class="tag">VAWT · CFD</span></div>
+<div style="display: flex; flex-direction: column; margin-top: 4px">
+<span class="mono" style="font-size: 11px; color: #4A5B6C; padding-bottom: 4px">HIBAH &amp; STATUS</span>
+<div class="ref"><span class="rt" style="font-size: 14px; font-weight: 600; line-height: 1.4">Teknologi pembangkit listrik nearshore (PV terapung, angin)</span><span class="mono" style="font-size: 12px; color: #4A5B6C">2024–2025 · Prime Engineering Seed Fund · Ketua</span></div>
+<div class="ref"><span class="rt" style="font-size: 14px; font-weight: 600; line-height: 1.4">Riset VAWT sedang berjalan di MARDEV</span><span class="mono" style="font-size: 12px; color: #4A5B6C">Publikasi akan ditautkan di sini</span></div>
+</div>
+</div>
+</article>
+
+<!-- 2. Gelombang -->
+<article style="background: #FFFFFF; border: 1px solid #C3DDE6; display: flex; flex-direction: column">
+<div style="background-color: #0A2E44; position: relative">
+<div style="aspect-ratio: 16 / 9; overflow: hidden"><img src="assets/img/riset-wec-pto.jpg" alt="Rig uji hydraulic PTO untuk wave energy converter" style="display: block; width: 100%; height: 100%; object-fit: cover"></div>
+<span class="mono" style="position: absolute; top: 10px; left: 10px; font-size: 12px; font-weight: 600; color: #FFFFFF; background: rgba(10,46,68,0.85); padding: 3px 7px">0 – λ/2 · ZONA GELOMBANG</span>
+<a class="mono" href="https://doi.org/10.1007/s40722-025-00430-9" style="display: block; font-size: 12px; line-height: 1.4; color: #FFFFFF; background: rgba(10,46,68,0.85); padding: 5px 10px; text-decoration: none">Foto uji PTO hidraulik · Arrosyid, Waskito dkk., J. Ocean Eng. Mar. Energy 2025, Gbr. 7b ↗</a>
+</div>
+<div style="padding: 26px; display: flex; flex-direction: column; gap: 12px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px">Wave energy converter</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #2C4A5C">Floating point absorber multi-silinder dan hydraulic PTO untuk pesisir selatan Jawa, studi kasus Pelabuhanratu. Gerak orbital air meluruh cepat terhadap kedalaman, sehingga energi ditangkap di permukaan.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Point absorber</span><span class="tag">Hydraulic PTO</span><span class="tag">Optimasi</span><span class="tag">7 hibah · 3 ketua</span></div>
+<div style="display: flex; flex-direction: column; margin-top: 4px">
+<span class="mono" style="font-size: 11px; color: #4A5B6C; padding-bottom: 4px">PUBLIKASI KUNCI</span>
+<a class="ref" href="https://doi.org/10.1016/j.oceaneng.2024.120040"><span class="rt" style="font-size: 14px; font-weight: 600; line-height: 1.4">Multi-objective optimization of multi-cylinder floating point absorber WEC ↗</span><span class="mono" style="font-size: 12px; color: #4A5B6C">Ocean Engineering · 2025</span></a>
+<a class="ref" href="https://doi.org/10.1016/j.egyr.2023.11.042"><span class="rt" style="font-size: 14px; font-weight: 600; line-height: 1.4">Hydraulic PTO unit parameters for multi-point absorbers WEC ↗</span><span class="mono" style="font-size: 12px; color: #4A5B6C">Energy Reports · 2024 · penulis pertama</span></a>
+</div>
+</div>
+</article>
+
+<!-- 3. Lambung -->
+<article style="background: #FFFFFF; border: 1px solid #C3DDE6; display: flex; flex-direction: column">
+<div style="background-color: #0A2E44; position: relative">
+<div style="aspect-ratio: 16 / 9; overflow: hidden"><img src="assets/img/riset-tanker-cfd.jpg" alt="Medan kecepatan relatif CFD di buritan kapal tanker 17.500 DWT dengan sirip hemat energi" style="display: block; width: 100%; height: 100%; object-fit: contain"></div>
+<span class="mono" style="position: absolute; top: 10px; left: 10px; font-size: 12px; font-weight: 600; color: #FFFFFF; background: rgba(10,46,68,0.85); padding: 3px 7px">−10 m · SARAT LAMBUNG</span>
+<a class="mono" href="https://doi.org/10.1007/s11804-026-00866-x" style="display: block; font-size: 12px; line-height: 1.4; color: #FFFFFF; background: rgba(10,46,68,0.85); padding: 5px 10px; text-decoration: none">CFD self-propulsion dengan sirip · Waskito dkk., J. Marine Sci. Appl. 2026, Gbr. 12b ↗</a>
+</div>
+<div style="padding: 26px; display: flex; flex-direction: column; gap: 12px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px">Hidrodinamika &amp; seakeeping kapal</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #2C4A5C">Beban gelombang dan momen lentur vertikal dari tekanan terukur pada lambung (topik disertasi di Osaka University), gerak kapal di laut aktual untuk optimasi rute, seakeeping feri kondisi rusak, dan reduksi hambatan.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Wave loads</span><span class="tag">Ship routing</span><span class="tag">Hambatan &amp; propulsi</span></div>
+<div style="display: flex; flex-direction: column; margin-top: 4px">
+<span class="mono" style="font-size: 11px; color: #4A5B6C; padding-bottom: 4px">PUBLIKASI KUNCI</span>
+<a class="ref" href="https://doi.org/10.1007/s11804-026-00866-x"><span class="rt" style="font-size: 14px; font-weight: 600; line-height: 1.4">Resistance and propulsion of a 17,500-DWT oil tanker with energy-saving fins ↗</span><span class="mono" style="font-size: 12px; color: #4A5B6C">J. Marine Sci. Appl. · 2026 · penulis pertama</span></a>
+<a class="ref" href="https://doi.org/10.1016/j.oceaneng.2022.111731"><span class="rt" style="font-size: 14px; font-weight: 600; line-height: 1.4">Realistic ship motion simulation for optimal routing in rough seas ↗</span><span class="mono" style="font-size: 12px; color: #4A5B6C">Ocean Engineering · 2022 · penulis pertama</span></a>
+</div>
+</div>
+</article>
+
+<!-- 4. Lepas pantai -->
+<article style="background: #FFFFFF; border: 1px solid #C3DDE6; display: flex; flex-direction: column">
+<div style="background-color: #0A2E44; position: relative">
+<div style="aspect-ratio: 16 / 9; overflow: hidden"><img src="assets/img/riset-foss-model.jpg" alt="Model gardu induk lepas pantai terapung (FOSS) saat uji model di kolam gelombang, lengkap dengan sensor tegangan tali tambat" style="display: block; width: 100%; height: 100%; object-fit: contain"></div>
+<span class="mono" style="position: absolute; top: 10px; left: 10px; font-size: 12px; font-weight: 600; color: #FFFFFF; background: rgba(10,46,68,0.85); padding: 3px 7px">−50 … −150 m · LEPAS PANTAI</span>
+<a class="mono" href="https://doi.org/10.1016/j.oceaneng.2025.124016" style="display: block; font-size: 12px; line-height: 1.4; color: #FFFFFF; background: rgba(10,46,68,0.85); padding: 5px 10px; text-decoration: none">Uji model FOSS · Liu, …, Waskito, Ocean Engineering 2026, Gbr. 2 ↗</a>
+</div>
+<div style="padding: 26px; display: flex; flex-direction: column; gap: 12px; flex-grow: 1">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 24px">Struktur terapung &amp; hidrogen hijau</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #2C4A5C">Respons gardu induk lepas pantai terapung saat tali tambat putus, beban gelombang platform multi-body, serta elektroliser berkatalis Pt dan Ru untuk hidrogen hijau dari energi dan air laut.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Mooring failure</span><span class="tag">Multi-body</span><span class="tag">Elektroliser</span><span class="tag">2 hibah · 1 ketua</span></div>
+<div style="display: flex; flex-direction: column; margin-top: 4px">
+<span class="mono" style="font-size: 11px; color: #4A5B6C; padding-bottom: 4px">PUBLIKASI KUNCI</span>
+<a class="ref" href="https://doi.org/10.1016/j.oceaneng.2025.124016"><span class="rt" style="font-size: 14px; font-weight: 600; line-height: 1.4">Floating offshore substation responses with mooring line failures ↗</span><span class="mono" style="font-size: 12px; color: #4A5B6C">Ocean Engineering · 2026</span></a>
+<a class="ref" href="https://doi.org/10.1007/s11804-025-00631-6"><span class="rt" style="font-size: 14px; font-weight: 600; line-height: 1.4">Marine renewable energy with green hydrogen production from seawater ↗</span><span class="mono" style="font-size: 12px; color: #4A5B6C">J. Marine Sci. Appl. · 2025</span></a>
+</div>
+</div>
+</article>
+
+</div>
+
+<div style="background: #0D3F58; color: #FFFFFF; padding: 26px 28px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span class="mono" style="font-size: 12px; color: #CFE9F0">UNTUK CALON MAHASISWA</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 22px">Mencari topik tugas akhir, tesis, atau disertasi di bidang ini?</span>
+</div>
+<a href="topik-bimbingan.html" style="color: #F6C343; font-weight: 600; text-decoration: none">Lihat 5 topik yang sedang berjalan →</a>
+</div>
+</div>
+</section>
+
+<!-- MARDEV -->
+<section id="mardev" class="tg" style="background-color: #155A75; color: #FFFFFF">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 48px 56px; align-items: center">
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #7FE3E0; text-transform: uppercase">02 · Laboratorium</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 42px; line-height: 1.1">MARDEV — Centre for Maritime Development</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; color: #DDF1F5">Laboratorium Departemen Teknik Mesin UI dengan tiga pilar: kapal, energi terbarukan laut, serta struktur dan platform terapung lepas pantai. Sedang menyiapkan fasilitas uji hidrodinamika skala penuh untuk riset, pendidikan, dan layanan pengujian.</p>
+<div class="mono" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: #3A7891; border: 1px solid #3A7891">
+<div style="background: #0D3F58; padding: 18px; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; color: #CFE9F0">TOWING TANK · RENCANA</span><span style="font-size: 22px">70 × 4 × 3,5 m</span></div>
+<div style="background: #0D3F58; padding: 18px; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; color: #CFE9F0">WAVE FLUME · RENCANA</span><span style="font-size: 22px">40 × 1,2 × 1,5 m</span></div>
+<div style="background: #0D3F58; padding: 18px; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; color: #CFE9F0">PEMBANGUNAN</span><span style="font-size: 18px; color: #F6C343">Awal 2027 – pertengahan 2028</span></div>
+<div style="background: #0D3F58; padding: 18px; display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; color: #CFE9F0">TARGET OPERASI</span><span style="font-size: 18px">Juli 2028</span></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px">
+<a href="#mardev" style="background: #F6C343; color: #0A2A3D; text-decoration: none; font-weight: 600; padding: 14px 24px; min-height: 48px; box-sizing: border-box; display: flex; align-items: center">Profil laboratorium</a>
+<a href="#mardev" style="border: 1.5px solid #7FE3E0; color: #FFFFFF; text-decoration: none; font-weight: 600; padding: 14px 24px; min-height: 48px; box-sizing: border-box; display: flex; align-items: center">Ikuti perkembangan towing tank</a>
+</div>
+</div>
+<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="background: #0D3F58; border: 1px solid #3A7891; padding: 24px">
+<svg viewBox="0 0 520 260" style="width: 100%; height: auto; display: block" fill="none" aria-label="Skema penampang towing tank dengan kereta tarik dan wave maker">
+<rect x="20" y="70" width="480" height="140" stroke="#CFE9F0" stroke-width="1.5"/>
+<path d="M20 100 C60 92 100 92 140 100 S220 108 260 100 340 92 380 100 460 108 500 100" stroke="#7FE3E0" stroke-width="1.5"/>
+<path d="M20 100 C60 92 100 92 140 100 S220 108 260 100 340 92 380 100 460 108 500 100 V210 H20 Z" fill="#7FE3E0" fill-opacity="0.08"/>
+<rect x="24" y="96" width="10" height="70" stroke="#F6C343" stroke-width="1.5" transform="rotate(-8 29 166)"/>
+<path d="M20 50 H500" stroke="#FFFFFF" stroke-width="1"/>
+<rect x="250" y="34" width="70" height="22" stroke="#FFFFFF" stroke-width="1.5"/>
+<path d="M285 56 V92" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M262 92 L310 90 L314 100 Q285 108 258 104 Z" stroke="#FFFFFF" stroke-width="1.5"/>
+<path d="M330 45 H380 M372 40 L380 45 L372 50" stroke="#F6C343" stroke-width="1.5"/>
+<path d="M470 110 L500 210" stroke="#CFE9F0" stroke-width="1" stroke-dasharray="3 3"/>
+<path d="M20 248 H500 M20 243 V253 M500 243 V253" stroke="#CFE9F0" stroke-width="1"/>
+<g fill="#DDF1F5" font-family="IBM Plex Mono, monospace" font-size="11"><text x="20" y="232" fill="#F6C343">wave maker</text><text x="250" y="26">kereta tarik</text><text x="404" y="232">beach peredam</text><text x="244" y="258">L = 70 m</text></g>
+</svg>
+</div>
+<span class="mono" style="font-size: 12px; color: #CFE9F0">Skema konseptual, tidak berskala. Ganti dengan render desain atau foto progres pembangunan.</span>
+</div>
+</div>
+</section>
+
+<!-- TRACK RECORD -->
+<section style="background: #FFFFFF; border-bottom: 1px solid #C3DDE6">
+<div style="max-width: 1240px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 720px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">03 · Rekam jejak</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 36px; line-height: 1.15">Dari ladang migas ke laboratorium kelautan Jepang</h2>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); border-top: 2px solid #0A2A3D">
+<li style="padding: 20px 20px 8px 0; display: flex; flex-direction: column; gap: 8px"><span class="mono" style="font-size: 13px; color: #0E6E73">2009–2014</span><span style="font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600">S.T. Teknik Perkapalan &amp; M.T. Teknik Mesin</span><span style="font-size: 14px; line-height: 1.55; color: #2C4A5C">Universitas Indonesia, program fast-track beasiswa DIKTI.</span></li>
+<li style="padding: 20px 20px 8px 0; display: flex; flex-direction: column; gap: 8px"><span class="mono" style="font-size: 13px; color: #0E6E73">2014–2016</span><span style="font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600">Field Operation Professional, Coil Tubing</span><span style="font-size: 14px; line-height: 1.55; color: #2C4A5C">Halliburton Indonesia: workover dan intervensi sumur migas.</span></li>
+<li style="padding: 20px 20px 8px 0; display: flex; flex-direction: column; gap: 8px"><span class="mono" style="font-size: 13px; color: #0E6E73">2017–2020</span><span style="font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600">Ph.D. Naval Architecture &amp; Ocean Engineering</span><span style="font-size: 14px; line-height: 1.55; color: #2C4A5C">Osaka University, beasiswa JICA Innovative Asia.</span></li>
+<li style="padding: 20px 20px 8px 0; display: flex; flex-direction: column; gap: 8px"><span class="mono" style="font-size: 13px; color: #0E6E73">2020–2022</span><span style="font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600">Postdoctoral Fellow</span><span style="font-size: 14px; line-height: 1.55; color: #2C4A5C">NMRI, lalu Faculty of Maritime Sciences, Kobe University.</span></li>
+<li style="padding: 20px 20px 8px 0; display: flex; flex-direction: column; gap: 8px"><span class="mono" style="font-size: 13px; color: #0E6E73">2016–kini</span><span style="font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600">Dosen DTM UI &amp; Kepala MARDEV</span><span style="font-size: 14px; line-height: 1.55; color: #2C4A5C">Juga tenaga ahli P2M: turbomesin, hidraulika, rekayasa keandalan.</span></li>
+</ol>
+</div>
+</section>
+
+<!-- PUBLICATIONS + TEACHING -->
+<section style="background: #EAF5F9">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 56px">
+<div id="publikasi" style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">04 · Publikasi terbaru</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 36px; line-height: 1.15">Hasil riset terkini</h2>
+<div style="display: flex; flex-direction: column; border-top: 1px solid #B9D6E0">
+<article style="display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid #B9D6E0"><span class="mono" style="font-size: 14px; color: #0E6E73; min-width: 48px">2026</span><div style="display: flex; flex-direction: column; gap: 6px; min-width: 0"><h3 style="margin: 0; font-size: 17px; font-weight: 600; line-height: 1.45">Performance evaluation of a wave energy converter equipped with a pneumatic-driven hydraulic PTO system</h3><span style="font-size: 14px; color: #2C4A5C">Geraldi A., <strong style="color: #0A2A3D">Waskito K.T.</strong>, Sari S.P., Yanuar · <em>J. Phys.: Conf. Series</em> 3186</span><a class="lk mono" href="https://doi.org/10.1088/1742-6596/3186/1/012032" style="font-size: 13px; overflow-wrap: anywhere">doi.org/10.1088/1742-6596/3186/1/012032 ↗</a></div></article>
+<article style="display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid #B9D6E0"><span class="mono" style="font-size: 14px; color: #0E6E73; min-width: 48px">2025</span><div style="display: flex; flex-direction: column; gap: 6px; min-width: 0"><h3 style="margin: 0; font-size: 17px; font-weight: 600; line-height: 1.45">Hydrodynamic analysis of multi-cylinder floating-point-absorber wave energy converter</h3><span style="font-size: 14px; color: #2C4A5C">Arrosyid W.A., <strong style="color: #0A2A3D">Waskito K.T.</strong>, Geraldi A., et al. · <em>J. Ocean Eng. Mar. Energy</em></span><a class="lk mono" href="https://doi.org/10.1007/s40722-025-00430-9" style="font-size: 13px; overflow-wrap: anywhere">doi.org/10.1007/s40722-025-00430-9 ↗</a></div></article>
+<article style="display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid #B9D6E0"><span class="mono" style="font-size: 14px; color: #0E6E73; min-width: 48px">2025</span><div style="display: flex; flex-direction: column; gap: 6px; min-width: 0"><h3 style="margin: 0; font-size: 17px; font-weight: 600; line-height: 1.45">Recent advancements in wave energy converter technologies: a comprehensive review on design and performance optimization</h3><span style="font-size: 14px; color: #2C4A5C">Arrosyid W.A., Sari W.R., <strong style="color: #0A2A3D">Waskito K.T.</strong>, Yanuar, et al. · <em>Ocean Engineering</em> 340</span><a class="lk mono" href="https://doi.org/10.1016/j.oceaneng.2025.122328" style="font-size: 13px; overflow-wrap: anywhere">doi.org/10.1016/j.oceaneng.2025.122328 ↗</a></div></article>
+<article style="display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid #B9D6E0"><span class="mono" style="font-size: 14px; color: #0E6E73; min-width: 48px">2025</span><div style="display: flex; flex-direction: column; gap: 6px; min-width: 0"><h3 style="margin: 0; font-size: 17px; font-weight: 600; line-height: 1.45">Estimation of hydraulic power take-off parameters in a floating absorber WEC using the genetic algorithm method</h3><span style="font-size: 14px; color: #2C4A5C">Geraldi A., <strong style="color: #0A2A3D">Waskito K.T.</strong>, Arrosyid W.A., et al. · <em>Engineering Journal</em> 29(7)</span><a class="lk mono" href="https://doi.org/10.4186/ej.2025.29.7.1" style="font-size: 13px; overflow-wrap: anywhere">doi.org/10.4186/ej.2025.29.7.1 ↗</a></div></article>
+</div>
+<a class="lk" href="publikasi.html" style="font-size: 15px">Daftar lengkap: 23 jurnal, 8 prosiding, 1 buku →</a>
+</div>
+<div id="pengajaran" style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">05 · Pengajaran</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 36px; line-height: 1.15">Mata kuliah</h2>
+<ul style="list-style: none; margin: 0; padding: 0; background: #FFFFFF; border: 1px solid #C3DDE6; display: flex; flex-direction: column">
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Hidrodinamika Kapal</span><span class="mono" style="font-size: 12px; color: #4A5B6C">2 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Sistem Fluida &amp; Perpipaan Kapal</span><span class="mono" style="font-size: 12px; color: #4A5B6C">2 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Tugas Merancang Kapal 1</span><span class="mono" style="font-size: 12px; color: #4A5B6C">3 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Tugas Merancang Kapal 2</span><span class="mono" style="font-size: 12px; color: #4A5B6C">4 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Tugas Merancang Kapal 3</span><span class="mono" style="font-size: 12px; color: #4A5B6C">4 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Bangunan Lepas Pantai</span><span class="mono" style="font-size: 12px; color: #4A5B6C">4 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Kinematika &amp; Dinamika</span><span class="mono" style="font-size: 12px; color: #4A5B6C">4 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Mekanika Fluida</span><span class="mono" style="font-size: 12px; color: #4A5B6C">2 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Hambatan &amp; Propulsi Kapal</span><span class="mono" style="font-size: 12px; color: #4A5B6C">4 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Getaran Kapal</span><span class="mono" style="font-size: 12px; color: #4A5B6C">2 SKS</span></li>
+<li style="padding: 15px 20px; border-bottom: 1px solid #DCEBF0; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Metode Numerik</span><span class="mono" style="font-size: 12px; color: #4A5B6C">2 SKS</span></li>
+<li style="padding: 15px 20px; display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 500">Energi Laut</span><span class="mono" style="font-size: 12px; color: #4A5B6C">4 SKS</span></li>
+</ul>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #2C4A5C">Saat ini membimbing 12 mahasiswa tugas akhir dalam 5 topik penelitian: energi gelombang dan arus, platform lepas pantai multifungsi, hidrogen, energi angin, dan wave maker. Juga penguji sidang pascasarjana.</p>
+<a class="lk" href="topik-bimbingan.html" style="font-size: 15px">Topik bimbingan &amp; cara bergabung →</a>
+</div>
+</div>
+</section>
+
+<!-- INDUSTRY + AWARDS -->
+<section style="background: #FFFFFF; border-top: 1px solid #C3DDE6">
+<div style="max-width: 1240px; margin: 0 auto; padding: 80px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">06 · Industri &amp; pelatihan</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 30px; line-height: 1.2">Ilmu yang dipakai di lapangan</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C">Tenaga ahli P2M DTM UI sejak 2016 untuk studi kelayakan, kajian teknis, dan pelatihan in-house: turbomesin, pompa, sistem hidraulik, manajemen pemeliharaan, dan rekayasa keandalan.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Migas &amp; distribusi BBM</span><span class="tag">Pembangkit listrik</span><span class="tag">Manufaktur</span><span class="tag">Kapal suplai lepas pantai</span><span class="tag">Gedung &amp; MEP</span></div>
+<a class="lk" href="industri.html" style="font-size: 15px">Lihat rekam jejak industri &amp; pelatihan →</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">Penghargaan &amp; beasiswa</span>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; border-top: 1px solid #B9D6E0">
+<li style="padding: 14px 0; border-bottom: 1px solid #B9D6E0; display: flex; gap: 16px"><span class="mono" style="font-size: 13px; color: #0E6E73; min-width: 84px">2017–2020</span><span>Beasiswa doktor JICA Innovative Asia, Osaka University</span></li>
+<li style="padding: 14px 0; border-bottom: 1px solid #B9D6E0; display: flex; gap: 16px"><span class="mono" style="font-size: 13px; color: #0E6E73; min-width: 84px">2019</span><span>Outreach scholarship, ASME OMAE 2019, Glasgow</span></li>
+<li style="padding: 14px 0; border-bottom: 1px solid #B9D6E0; display: flex; gap: 16px"><span class="mono" style="font-size: 13px; color: #0E6E73; min-width: 84px">2017</span><span>Best Presentation Award, IMAT 2017, Johor</span></li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- CONTACT + MARENOVA -->
+<section id="kontak" class="tg" style="background-color: #0A2E44; color: #FFFFFF; position: relative; overflow: hidden">
+<svg viewBox="0 0 1440 80" preserveAspectRatio="none" style="position: absolute; left: 0; top: 0; width: 100%; height: 80px; opacity: 0.5" aria-hidden="true"><g fill="none" stroke="#7FE3E0" stroke-width="1"><path d="M0 30 C120 10 240 10 360 30 S600 50 720 30 960 10 1080 30 1320 50 1440 30"/><path d="M0 48 C120 32 240 32 360 48 S600 64 720 48 960 32 1080 48 1320 64 1440 48" opacity="0.6"/></g></svg>
+<div style="max-width: 1240px; margin: 0 auto; padding: 104px 24px 88px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 20px; position: relative">
+<div style="background: #0D3F58; border: 1px solid #3A7891; padding: 36px; display: flex; flex-direction: column; gap: 16px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #7FE3E0; text-transform: uppercase">Kolaborasi riset &amp; akademik</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 32px; line-height: 1.2">Punya ide riset bersama, hibah, atau kunjungan akademik?</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #DDF1F5">Terbuka untuk kolaborasi riset, co-supervision, dan pertukaran peneliti.</p>
+<span class="mono" style="font-size: 14px">waskito@eng.ui.ac.id</span>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px">
+<a href="mailto:waskito@eng.ui.ac.id" style="background: #F6C343; color: #0A2A3D; text-decoration: none; font-weight: 600; padding: 14px 24px; min-height: 48px; box-sizing: border-box; display: flex; align-items: center">Kirim email</a>
+<a href="assets/cv/CV_Kurniawan_Teguh_Waskito_2026.pdf" download="CV_Kurniawan_Teguh_Waskito_2026.pdf" style="border: 1.5px solid #7FE3E0; color: #FFFFFF; text-decoration: none; font-weight: 600; padding: 14px 24px; min-height: 48px; box-sizing: border-box; display: flex; align-items: center">Unduh CV (PDF)</a>
+</div>
+</div>
+<div style="background: #EAF5F9; color: #0A2A3D; padding: 36px; display: flex; flex-direction: column; gap: 16px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">Kebutuhan industri</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 32px; line-height: 1.2">Kajian teknis, pengujian, dan pelatihan</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #2C4A5C">Konsultansi dan layanan teknologi untuk industri maritim dan energi ditangani melalui Marenova (PT Prana Samudra Teknologi).</p>
+<span class="mono" style="font-size: 14px; margin-top: 8px; color: #2C4A5C; line-height: 1.5">Situs Marenova segera hadir. Sementara itu, hubungi waskito@eng.ui.ac.id</span>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background: #04131F; color: #CFE9F0; border-top: 1px solid #2A6A85">
+<div style="max-width: 1240px; margin: 0 auto; padding: 36px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; font-size: 14px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="color: #FFFFFF; font-family: 'Space Grotesk', sans-serif; font-weight: 600">Kurniawan Teguh Waskito, S.T., M.T., Ph.D.</span>
+<span>Departemen Teknik Mesin &amp; Tropical Renewable Energy Center, FTUI · Kampus UI Depok 16426</span>
+</div>
+<div class="mono" style="display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; align-items: center">
+<a href="https://orcid.org/0000-0002-9719-9559" style="color: #DDF1F5">ORCID</a>
+<a href="https://scholar.google.com/citations?user=eq8t2dUAAAAJ&amp;hl=id" style="color: #DDF1F5">Scholar</a>
+<a href="https://scholar.ui.ac.id/en/persons/kurniawan-teguh-waskito/" style="color: #DDF1F5">Scholar UI</a>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=56517004200" style="color: #DDF1F5">Scopus ID 56517004200</a>
+<a href="https://www.linkedin.com/in/kurniawan-teguh-waskito-1046b752/" style="color: #DDF1F5">LinkedIn</a>
+<span>© 2026</span>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
