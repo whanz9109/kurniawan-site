@@ -56,7 +56,7 @@ Unsplash dan Pexels tidak mewajibkan kredit, tetapi sumbernya dicatat di sini.
 
 Berkas `assets/video/sim-*.mp4` (H.264, 15 fps, 3 detik, tanpa suara) dan poster `assets/img/sim-*.jpg` adalah keluaran program hidrodinamika milik Kurniawan untuk lambung acuan DTMB 5415, KCS, dan KVLCC2. Strip judul asli yang menyebut metode sudah dipotong; keterangan di situs sengaja tidak menyebut skema pemodelan.
 
-Grafik hasil (`assets/img/grafik-*.png`) dan tangkapan layar antarmuka (`assets/img/studio-*.png`) juga keluaran program Kurniawan. Judul yang menyebut metode dipotong, dan satu label legenda pada grafik perbandingan KVLCC2 diganti menjadi "Program". Data pembanding: Sadat-Hosseini dkk. (2013) untuk KVLCC2.
+Grafik hasil (`assets/img/grafik-*.png`) dan tangkapan layar antarmuka (`assets/img/studio-*.png`) juga keluaran program Kurniawan. Judul yang menyebut metode dipotong, dan satu label legenda pada grafik perbandingan KVLCC2 diganti menjadi "Program". Legenda "pflow" (nama program) dibiarkan. Data pembanding: Sadat-Hosseini dkk. (2013) untuk KVLCC2; Park dkk. (2019) untuk S-VLCC; uji model untuk kapal kontainer 6750 TEU.
 
 ## Domain
 
