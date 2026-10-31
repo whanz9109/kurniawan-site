@@ -52,6 +52,10 @@ Unsplash dan Pexels tidak mewajibkan kredit, tetapi sumbernya dicatat di sini.
 | sektor-kapal-kandas.jpg | The New York Public Library, Unsplash (litografi domain publik) |
 | sektor-wave-flume.jpg | Foto pribadi, uji model di wave flume |
 
+## Galeri cuplikan program
+
+Berkas `assets/video/sim-*.mp4` (H.264, 15 fps, 3 detik, tanpa suara) dan poster `assets/img/sim-*.jpg` adalah keluaran program hidrodinamika milik Kurniawan untuk lambung acuan DTMB 5415, KCS, dan KVLCC2. Strip judul asli yang menyebut metode sudah dipotong; keterangan di situs sengaja tidak menyebut skema pemodelan.
+
 ## Domain
 
 Semua alamat lengkap (canonical, hreflang, og:url, sitemap) memakai `https://kurniawanwaskito.com`. Kalau domain final berbeda, cari dan ganti teks itu di semua file.
