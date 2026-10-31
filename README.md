@@ -49,7 +49,7 @@ Unsplash dan Pexels tidak mewajibkan kredit, tetapi sumbernya dicatat di sini.
 | sektor-angin-lepas-pantai.jpg | Xu X, Pexels |
 | sektor-akuakultur.jpg | Norbert Buduczki, Unsplash |
 | sektor-kapal-patroli.jpg | Royce Fonseca, Unsplash |
-| sektor-kapal-tenggelam.jpg | Foto dikirim Kurniawan, kecelakaan kapal penumpang (sumber asli perlu dicantumkan bila diketahui) |
+| sektor-kapal-tenggelam.jpg | Kecelakaan kapal penumpang, Juli 2018; sumber: [Mongabay Indonesia](https://mongabay.co.id/2018/07/07/cuaca-buruk-di-perairan-indonesia-kemenhub-keluarkan-maklumat-pelayaran/) |
 | sektor-wave-flume.jpg | Foto pribadi, uji model di wave flume |
 
 ## Galeri cuplikan program
