@@ -34,6 +34,30 @@ Unsplash dan Pexels tidak mewajibkan kredit, tetapi sumbernya dicatat di sini.
 | hero-elektroliser-aem.jpg | Foto pribadi, rig uji elektroliser AEM dan fuel cell |
 | hero-copv-hidrogen.jpg | Foto pribadi, prototipe tangki hidrogen COPV tipe IV |
 
+## Sumber foto kartu sektor (bagian Pengembangan program)
+
+| Berkas | Sumber |
+|---|---|
+| sektor-penumpang.jpg | Julius Jansson, Unsplash |
+| sektor-tanker.jpg | Shaah Shahidh, Unsplash |
+| sektor-galangan.jpg | Haberdoedas, Unsplash |
+| sektor-klasifikasi.jpg | Nathan Cima, Unsplash |
+| sektor-pelabuhan.jpg | Wolfgang Weiser, Unsplash |
+| sektor-migas.jpg | Leonardo Benitez, Unsplash |
+| sektor-konstruksi.jpg | Royce Fonseca, Unsplash |
+| sektor-lng-terapung.jpg | Julia Taubitz, Unsplash |
+| sektor-angin-lepas-pantai.jpg | Xu X, Pexels |
+| sektor-akuakultur.jpg | Norbert Buduczki, Unsplash |
+| sektor-kapal-patroli.jpg | Royce Fonseca, Unsplash |
+| sektor-kapal-tenggelam.jpg | Kecelakaan kapal penumpang, Juli 2018; sumber: [Mongabay Indonesia](https://mongabay.co.id/2018/07/07/cuaca-buruk-di-perairan-indonesia-kemenhub-keluarkan-maklumat-pelayaran/) |
+| sektor-wave-flume.jpg | Foto pribadi, uji model di wave flume |
+
+## Galeri cuplikan program
+
+Berkas `assets/video/sim-*.mp4` (H.264, 15 fps, 3 detik, tanpa suara) dan poster `assets/img/sim-*.jpg` adalah keluaran program hidrodinamika milik Kurniawan untuk lambung acuan DTMB 5415, KCS, dan KVLCC2. Strip judul asli yang menyebut metode sudah dipotong; keterangan di situs sengaja tidak menyebut skema pemodelan.
+
+Grafik hasil (`assets/img/grafik-*.png`) dan tangkapan layar antarmuka (`assets/img/studio-*.png`) juga keluaran program Kurniawan. Judul yang menyebut metode dipotong, dan satu label legenda pada grafik perbandingan KVLCC2 diganti menjadi "Program". Data pembanding: Sadat-Hosseini dkk. (2013) untuk KVLCC2.
+
 ## Domain
 
 Semua alamat lengkap (canonical, hreflang, og:url, sitemap) memakai `https://kurniawanwaskito.com`. Kalau domain final berbeda, cari dan ganti teks itu di semua file.
