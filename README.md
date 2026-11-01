@@ -41,7 +41,7 @@ Unsplash dan Pexels tidak mewajibkan kredit, tetapi sumbernya dicatat di sini.
 |---|---|
 | sektor-penumpang.jpg | Julius Jansson, Unsplash |
 | sektor-tanker.jpg | Shaah Shahidh, Unsplash |
-| sektor-galangan.jpg | Haberdoedas, Unsplash |
+| sektor-galangan-pribadi.jpg | Kurniawan (foto pribadi, 2012) |
 | sektor-klasifikasi.jpg | Nathan Cima, Unsplash |
 | sektor-pelabuhan.jpg | Wolfgang Weiser, Unsplash |
 | sektor-migas.jpg | Leonardo Benitez, Unsplash |
