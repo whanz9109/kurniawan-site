@@ -11,6 +11,7 @@
  *   t_en / v_en  opsional, versi bahasa Inggris bila berbeda
  */
 window.PUBLICATIONS = [
+      { y: 2026, type: 'J', topic: 'wec', t: 'Performance and survivability trade-off analysis of pitching-mode wave energy converters in intermediate water: A South Java case study', a1: 'Arrosyid W.A., Yanuar, ', a3: ', Kurniawan A., Siringo Ringo E., Geraldi A., Gunawan, Zhou X., Kumarasamy S.', v: 'Ocean Engineering, Vol. 370, 129233', url: 'https://doi.org/10.1016/j.oceaneng.2026.129233' },
       { y: 2026, type: 'J', topic: 'wec', t: 'Evaluation and Optimization of Wave Energy Converters: A Systematic Perspective on Methods and Design Optimization Research Trend', a1: 'Arrosyid W.A., Sari W.R., ', a3: ', Yanuar', v: 'Engineering Journal, 30(3), pp. 1–27', url: 'https://www.engj.org/index.php/ej/article/view/4702', lbl: 'engj.org' },
       { y: 2026, type: 'J', topic: 'kapal', t: 'Resistance and Propulsion Study of a 17,500-DWT Oil Tanker Using CFD and Slender-Ship Theory: Effects of Energy-Saving Device Fins', a1: '', a3: ', Tarigan L.G., Yanuar, et al.', v: 'Journal of Marine Science and Application', url: 'https://doi.org/10.1007/s11804-026-00866-x' },
       { y: 2026, type: 'J', topic: 'offshore', t: 'Experimental and numerical investigation of floating offshore substation dynamic responses with mooring line failures', a1: 'Liu C., Jiang X., Li H., Sun S., Ren H., Riadi A., ', a3: '', v: 'Ocean Engineering, Vol. 348', url: 'https://doi.org/10.1016/j.oceaneng.2025.124016' },
