@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PLTS Terapung · Proyek Riset · Kurniawan T. Waskito</title>
+<meta name="description" content="Proyek riset PLTS terapung (floating PV): uji model pelampung tertambat di wave flume BRIN, perbandingan pelampung ponton kotak dan katamaran di gelombang, serta tugas akhir mahasiswa terkait.">
+<link rel="canonical" href="https://kurniawanwaskito.com/riset/plts-terapung">
+<link rel="alternate" hreflang="id" href="https://kurniawanwaskito.com/riset/plts-terapung">
+<link rel="alternate" hreflang="en" href="https://kurniawanwaskito.com/en/research/floating-pv">
+<link rel="alternate" hreflang="x-default" href="https://kurniawanwaskito.com/riset/plts-terapung">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kurniawan T. Waskito">
+<meta property="og:title" content="PLTS Terapung · Proyek Riset · Kurniawan T. Waskito">
+<meta property="og:description" content="Proyek riset PLTS terapung (floating PV): uji model pelampung tertambat di wave flume BRIN, perbandingan pelampung ponton kotak dan katamaran di gelombang, serta tugas akhir mahasiswa terkait.">
+<meta property="og:url" content="https://kurniawanwaskito.com/riset/plts-terapung">
+<meta property="og:image" content="https://kurniawanwaskito.com/assets/img/riset-fpv-barge-brin.webp">
+<meta property="og:locale" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kurniawanwaskito.com/assets/img/riset-fpv-barge-brin.webp">
+<meta name="theme-color" content="#0A2E44">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#155A75}
+a{color:#7FE3E0}a:hover{color:#C2F4F2}
+.tg{background-image:linear-gradient(rgba(127,227,224,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(127,227,224,.07) 1px,transparent 1px);background-size:40px 40px}
+.navlink{color:#DDF1F5;text-decoration:none;padding:10px 0}.navlink:hover{color:#FFFFFF}
+.lk{color:#0E6E73;text-decoration:none;font-weight:600}.lk:hover{color:#07454A;text-decoration:underline}
+.mono{font-family:'IBM Plex Mono',monospace}
+.tag{background:#D3ECF3;padding:5px 9px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:#0A2A3D}
+.row{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(200px,320px);gap:8px 24px;padding:16px 0;border-bottom:1px solid #C3DDE6;align-items:baseline}
+.d{font-family:'IBM Plex Mono',monospace;font-size:13px;color:#0E6E73}
+.t{font-size:16px;font-weight:600;line-height:1.45}
+.c{font-size:14px;color:#2C4A5C;line-height:1.45}
+</style>
+<style>html{scroll-behavior:smooth}img{max-width:100%}*{box-sizing:border-box}
+@media (max-width:720px){.row{grid-template-columns:1fr !important;gap:4px}h1{font-size:38px !important}}</style>
+<script>if(matchMedia("(prefers-reduced-motion: reduce)").matches)document.addEventListener("DOMContentLoaded",()=>document.querySelectorAll("video[autoplay]").forEach(v=>{v.removeAttribute("autoplay");v.pause()}))</script>
+</head>
+<body>
+<div style="font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #0A2A3D; background: #EAF5F9; width: 100%">
+
+<!-- NAV -->
+<header style="background: #0A2E44; border-bottom: 1px solid #2A6A85">
+<nav aria-label="Navigasi utama" style="max-width: 1240px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 16px">
+<a href="/" style="display: flex; align-items: center; gap: 12px; text-decoration: none">
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true"><rect x="0.75" y="0.75" width="42.5" height="42.5" stroke="#7FE3E0" stroke-width="1.5"/><path d="M6 25 C11 20 16 20 22 25 S33 30 38 25" stroke="#7FE3E0" stroke-width="2"/><path d="M6 32 C11 29 16 29 22 32 S33 35 38 32" stroke="#7FE3E0" stroke-width="1.2" opacity="0.6"/><circle cx="31" cy="12" r="4" stroke="#F6C343" stroke-width="1.5"/></svg>
+<span style="display: flex; flex-direction: column">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 17px; color: #FFFFFF">Kurniawan T. Waskito</span>
+<span class="mono" style="font-size: 12px; color: #CFE9F0">Marine Hydrodynamics &amp; Ocean Energy</span>
+</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 22px; font-size: 15px; font-weight: 500">
+<a class="navlink" href="/">Beranda</a><a class="navlink" href="/#riset" aria-current="page" style="color: #FFFFFF; border-bottom: 2px solid #F6C343">Riset</a>
+<a class="navlink" href="/publikasi">Publikasi</a>
+<a class="navlink" href="/hibah">Hibah</a>
+<a class="navlink" href="/topik-bimbingan">Topik Bimbingan</a>
+<a class="navlink" href="/industri">Industri</a>
+<a class="navlink" href="/#kontak">Kontak</a>
+<span class="mono" style="display: flex; border: 1px solid #3A7891; font-size: 13px">
+<span aria-current="true" style="background: #7FE3E0; color: #0A2A3D; padding: 0 12px; min-height: 40px; display: flex; align-items: center; font-weight: 600">ID</span>
+<a href="/en/research/floating-pv" lang="en" aria-label="English version" style="color: #DDF1F5; text-decoration: none; padding: 0 12px; min-height: 40px; display: flex; align-items: center">EN</a>
+</span>
+<a href="/assets/cv/CV_Kurniawan_Teguh_Waskito_2026.pdf" download="CV_Kurniawan_Teguh_Waskito_2026.pdf" style="border: 1px solid #F6C343; color: #FFFFFF; text-decoration: none; padding: 9px 16px; min-height: 40px; box-sizing: border-box; display: flex; align-items: center; font-size: 14px">Unduh CV</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="tg" style="background-color: #155A75; color: #FFFFFF; position: relative; overflow: hidden">
+<div style="max-width: 1240px; margin: 0 auto; padding: 56px 24px 72px; display: flex; flex-direction: column; gap: 16px; position: relative">
+<nav aria-label="Breadcrumb" class="mono" style="font-size: 13px; color: #CFE9F0"><a href="/" style="color: #DDF1F5">Beranda</a> / <a href="/#riset" style="color: #DDF1F5">Riset</a> / PLTS terapung</nav>
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #7FE3E0; text-transform: uppercase">Proyek riset · 0 m · Permukaan</span>
+<h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(36px, 6vw, 52px); line-height: 1.06; letter-spacing: -1px">PLTS terapung untuk perairan dangkal</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #DDF1F5; max-width: 780px">PLTS terapung (floating PV) memanfaatkan permukaan waduk, danau, dan perairan pantai yang terlindung. Tantangannya ada di bawah panel: pelampung dan tali tambat harus menjaga susunan tetap stabil saat diterpa gelombang. Proyek ini mempelajari bentuk pelampung, arah penempatan, dan sistem tambat melalui uji model dan program yang dikembangkan di MARDEV.</p>
+</div>
+</section>
+
+<!-- STATS -->
+<section style="background: #0D3F58; color: #FFFFFF; border-bottom: 1px solid #2A6A85">
+<div style="max-width: 1240px; margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">2</span><span style="font-size: 15px; color: #DDF1F5">bentuk pelampung dibandingkan: ponton kotak dan katamaran</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">2026</span><span style="font-size: 15px; color: #DDF1F5">uji model tertambat di wave flume BRIN Yogyakarta</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">2</span><span style="font-size: 15px; color: #DDF1F5">tugas akhir mahasiswa tentang gerak FPV</span></div>
+</div>
+</section>
+
+<!-- PROJECT -->
+<section style="background: #EAF5F9">
+<div style="max-width: 1240px; margin: 0 auto; padding: 64px 24px 80px; display: flex; flex-direction: column; gap: 40px">
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 28px; align-items: center">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
+<img decoding="async" srcset="/assets/img/riset-fpv-barge-brin-800w.webp 800w, /assets/img/riset-fpv-barge-brin.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" src="/assets/img/riset-fpv-barge-brin.webp" alt="Model floating PV tipe barge dengan empat tali tambat saat diuji di wave flume BRIN Yogyakarta, Mei 2026, dilihat dari balik dinding kaca" style="display: block; width: 100%; aspect-ratio: 4 / 3; height: auto; object-fit: cover; object-position: 50% 30%">
+<figcaption class="mono" style="font-size: 12px; color: #2C4A5C">Uji model FPV barge tertambat · Wave flume BRIN Yogyakarta, Mei 2026</figcaption>
+</figure>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2; color: #0A2A3D">Uji model di wave flume</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C">Model PLTS terapung tipe barge dengan empat tali tambat diuji di wave flume BRIN Yogyakarta pada Mei 2026. Uji model seperti ini menunjukkan gerak susunan dan beban pada tali tambat di gelombang yang terkendali, sebagai pembanding hasil program.</p>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2; color: #0A2A3D">Dua konsep pelampung di gelombang acak</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; max-width: 860px">Animasi hasil program ini membandingkan dua susunan 3×2 pelampung sepanjang 3,8–3,9 m, yaitu ponton kotak dan katamaran. Keduanya ditambat longgar di kedalaman air 7 m dan diberi gelombang acak dengan tinggi gelombang signifikan 0,6 m dan periode puncak 3,1 detik.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 24px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
+<video autoplay muted loop playsinline preload="metadata" poster="/assets/img/pv-terapung-samping.webp" aria-label="Animasi susunan PLTS terapung ponton kotak dan katamaran pada gelombang dari samping" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #5E8C93"><source src="/assets/video/pv-terapung-samping.mp4" type="video/mp4"></video>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><strong style="font-size: 17px; color: #0A2A3D">Gelombang dari samping</strong><span style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C">Sepanjang animasi, oleng kedua susunan sebanding dengan puncak sekitar 5–6°. Pada arah ini bentuk pelampung tidak banyak membedakan gerak.</span></figcaption>
+</figure><figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
+<video autoplay muted loop playsinline preload="metadata" poster="/assets/img/pv-terapung-depan.webp" aria-label="Animasi susunan PLTS terapung ponton kotak dan katamaran pada gelombang dari depan" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #5E8C93"><source src="/assets/video/pv-terapung-depan.mp4" type="video/mp4"></video>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><strong style="font-size: 17px; color: #0A2A3D">Gelombang dari depan</strong><span style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C">Anggukan susunan katamaran konsisten sekitar dua kali susunan ponton kotak, dengan puncak mendekati 9° dibanding sekitar 4°.</span></figcaption>
+</figure>
+</div>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; border-left: 3px solid #F6C343; padding-left: 16px; color: #0A2A3D">Artinya, arah penempatan susunan terhadap gelombang dominan sama pentingnya dengan pemilihan bentuk pelampung. Hasil seperti ini dipakai untuk menentukan tata letak, batas operasi, dan sistem tambat PLTS terapung sebelum dibangun.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">Hibah</span>
+<div style="display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2024–2025</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 16px; line-height: 1.5; color: #0A2A3D; font-weight: 600">Teknologi pembangkit listrik nearshore (PV terapung, angin, dll.)</span><span style="font-size: 14px; color: #2C4A5C">Prime Engineering Seed Fund Batch I 2024 · Ketua peneliti</span></div></div>
+<a href="/hibah" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">Lihat semua 13 hibah →</a>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">Tugas akhir mahasiswa</span>
+<div style="display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2026</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Respons gerak 3 derajat kebebasan model PLTS terapung tipe katamaran: perhitungan program dan uji model</span><span style="font-size: 14px; color: #2C4A5C">Raily Adrian Fauzi</span></div></div>
+<div style="display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2026</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Respons gerak 3 derajat kebebasan model PLTS terapung tipe box-pontoon: perhitungan program dan uji model</span><span style="font-size: 14px; color: #2C4A5C">Ramzy Ramadhan</span></div></div>
+<a href="/topik-bimbingan#g-fpv" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">Lihat penelitian mahasiswa lainnya →</a>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2; color: #0A2A3D">Arah berikutnya</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; max-width: 860px">Pengembangan berlanjut ke platform terapung multifungsi yang menggabungkan panel surya dengan energi gelombang atau angin, termasuk beban gelombang pada struktur multi-body dan desain sistem tambatnya. Topik ini terbuka untuk mahasiswa S1, S2, dan S3.</p>
+<a href="/topik-bimbingan#t-platform" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">Lihat topik bimbingan: platform lepas pantai multifungsi →</a>
+</div>
+
+<a href="/#riset" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">← Kembali ke semua bidang riset</a>
+</div>
+</section>
+
+<!-- CTA -->
+<section id="kontak" class="tg" style="background-color: #0A2E44; color: #FFFFFF">
+<div style="max-width: 1240px; margin: 0 auto; padding: 72px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 20px">
+<div style="background: #0D3F58; border: 1px solid #3A7891; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2">Tertarik berkolaborasi di riset PLTS terapung?</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #DDF1F5">Untuk kerja sama riset, uji model, atau kajian tata letak dan sistem tambat PLTS terapung, silakan hubungi lewat email.</p>
+<a href="mailto:waskito@eng.ui.ac.id?subject=Kolaborasi%20riset%20PLTS%20terapung" style="background: #F6C343; color: #0A2A3D; text-decoration: none; font-weight: 600; padding: 14px 24px; min-height: 48px; box-sizing: border-box; display: flex; align-items: center; align-self: flex-start">Hubungi waskito@eng.ui.ac.id</a>
+</div>
+<div style="background: #EAF5F9; color: #0A2A3D; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">Untuk calon mahasiswa</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2">Ingin meneliti PLTS terapung?</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #2C4A5C">Lihat topik tugas akhir, tesis, dan disertasi yang sedang berjalan di MARDEV.</p>
+<a href="/topik-bimbingan" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">Lihat topik bimbingan →</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background: #04131F; color: #CFE9F0; border-top: 1px solid #2A6A85">
+<div style="max-width: 1240px; margin: 0 auto; padding: 36px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; font-size: 14px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="color: #FFFFFF; font-family: 'Space Grotesk', sans-serif; font-weight: 600">Kurniawan Teguh Waskito, S.T., M.T., Ph.D.</span>
+<span>Departemen Teknik Mesin &amp; Tropical Renewable Energy Center, FTUI · Kampus UI Depok 16426</span>
+</div>
+<div class="mono" style="display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; align-items: center">
+<a href="https://orcid.org/0000-0002-9719-9559" style="color: #DDF1F5">ORCID</a>
+<a href="https://scholar.google.com/citations?user=eq8t2dUAAAAJ&amp;hl=id" style="color: #DDF1F5">Google Scholar</a>
+<a href="https://scholar.ui.ac.id/en/persons/kurniawan-teguh-waskito/" style="color: #DDF1F5">Scholar UI</a>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=56517004200" style="color: #DDF1F5">Scopus ID 56517004200</a>
+<a href="https://www.linkedin.com/in/kurniawan-teguh-waskito-1046b752/" style="color: #DDF1F5">LinkedIn</a>
+<span>© 2026</span>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
