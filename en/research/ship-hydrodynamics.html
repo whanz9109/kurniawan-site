@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ship Hydrodynamics &amp; Seakeeping · Research Project · Kurniawan T. Waskito</title>
+<meta name="description" content="Ship hydrodynamics and seakeeping research: wave loads and hull strength, ship motions in real seas for route optimisation, seakeeping of damaged ferries, and resistance and propulsion. 17 publications and an in-house program.">
+<link rel="canonical" href="https://kurniawanwaskito.com/en/research/ship-hydrodynamics">
+<link rel="alternate" hreflang="id" href="https://kurniawanwaskito.com/riset/kapal">
+<link rel="alternate" hreflang="en" href="https://kurniawanwaskito.com/en/research/ship-hydrodynamics">
+<link rel="alternate" hreflang="x-default" href="https://kurniawanwaskito.com/riset/kapal">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kurniawan T. Waskito">
+<meta property="og:title" content="Ship Hydrodynamics &amp; Seakeeping · Research Project · Kurniawan T. Waskito">
+<meta property="og:description" content="Ship hydrodynamics and seakeeping research: wave loads and hull strength, ship motions in real seas for route optimisation, seakeeping of damaged ferries, and resistance and propulsion. 17 publications and an in-house program.">
+<meta property="og:url" content="https://kurniawanwaskito.com/en/research/ship-hydrodynamics">
+<meta property="og:image" content="https://kurniawanwaskito.com/assets/img/sim-kvlcc2-fn014.webp">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kurniawanwaskito.com/assets/img/sim-kvlcc2-fn014.webp">
+<meta name="theme-color" content="#0A2E44">
+<link rel="icon" href="/../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#155A75}
+a{color:#7FE3E0}a:hover{color:#C2F4F2}
+.tg{background-image:linear-gradient(rgba(127,227,224,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(127,227,224,.07) 1px,transparent 1px);background-size:40px 40px}
+.navlink{color:#DDF1F5;text-decoration:none;padding:10px 0}.navlink:hover{color:#FFFFFF}
+.lk{color:#0E6E73;text-decoration:none;font-weight:600}.lk:hover{color:#07454A;text-decoration:underline}
+.mono{font-family:'IBM Plex Mono',monospace}
+.row{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(200px,320px);gap:8px 24px;padding:16px 0;border-bottom:1px solid #C3DDE6;align-items:baseline}
+.d{font-family:'IBM Plex Mono',monospace;font-size:13px;color:#0E6E73}
+.t{font-size:16px;font-weight:600;line-height:1.45}
+.c{font-size:14px;color:#2C4A5C;line-height:1.45}
+</style>
+<style>html{scroll-behavior:smooth}img{max-width:100%}*{box-sizing:border-box}
+@media (max-width:720px){.row{grid-template-columns:1fr !important;gap:4px}h1{font-size:38px !important}}</style>
+<script>if(matchMedia("(prefers-reduced-motion: reduce)").matches)document.addEventListener("DOMContentLoaded",()=>document.querySelectorAll("video[autoplay]").forEach(v=>{v.removeAttribute("autoplay");v.pause()}))</script>
+</head>
+<body>
+<div style="font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #0A2A3D; background: #EAF5F9; width: 100%">
+
+<!-- NAV -->
+<header style="background: #0A2E44; border-bottom: 1px solid #2A6A85">
+<nav aria-label="Main navigation" style="max-width: 1240px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 16px">
+<a href="/en/" style="display: flex; align-items: center; gap: 12px; text-decoration: none">
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true"><rect x="0.75" y="0.75" width="42.5" height="42.5" stroke="#7FE3E0" stroke-width="1.5"/><path d="M6 25 C11 20 16 20 22 25 S33 30 38 25" stroke="#7FE3E0" stroke-width="2"/><path d="M6 32 C11 29 16 29 22 32 S33 35 38 32" stroke="#7FE3E0" stroke-width="1.2" opacity="0.6"/><circle cx="31" cy="12" r="4" stroke="#F6C343" stroke-width="1.5"/></svg>
+<span style="display: flex; flex-direction: column">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 17px; color: #FFFFFF">Kurniawan T. Waskito</span>
+<span class="mono" style="font-size: 12px; color: #CFE9F0">Marine Hydrodynamics &amp; Ocean Energy</span>
+</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 22px; font-size: 15px; font-weight: 500">
+<a class="navlink" href="/en/">Home</a><a class="navlink" href="/en/#research" aria-current="page" style="color: #FFFFFF; border-bottom: 2px solid #F6C343">Research</a>
+<a class="navlink" href="/en/publications">Publications</a>
+<a class="navlink" href="/en/grants">Grants</a>
+<a class="navlink" href="/en/supervision">Supervision</a>
+<a class="navlink" href="/en/industry">Industry</a>
+<a class="navlink" href="/en/#contact">Contact</a>
+<span class="mono" style="display: flex; border: 1px solid #3A7891; font-size: 13px">
+<a href="/riset/kapal" lang="id" aria-label="Versi bahasa Indonesia" style="color: #DDF1F5; text-decoration: none; padding: 0 12px; min-height: 40px; display: flex; align-items: center">ID</a>
+<span aria-current="true" style="background: #7FE3E0; color: #0A2A3D; padding: 0 12px; min-height: 40px; display: flex; align-items: center; font-weight: 600">EN</span>
+</span>
+<a href="/../assets/cv/CV_Kurniawan_Teguh_Waskito_2026_EN.pdf" download="CV_Kurniawan_Teguh_Waskito_2026_EN.pdf" style="border: 1px solid #F6C343; color: #FFFFFF; text-decoration: none; padding: 9px 16px; min-height: 40px; box-sizing: border-box; display: flex; align-items: center; font-size: 14px">Download CV</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="tg" style="background-color: #155A75; color: #FFFFFF; position: relative; overflow: hidden">
+<div style="max-width: 1240px; margin: 0 auto; padding: 56px 24px 72px; display: flex; flex-direction: column; gap: 16px; position: relative">
+<nav aria-label="Breadcrumb" class="mono" style="font-size: 13px; color: #CFE9F0"><a href="/en/" style="color: #DDF1F5">Home</a> / <a href="/en/#research" style="color: #DDF1F5">Research</a> / Ship hydrodynamics &amp; seakeeping</nav>
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #7FE3E0; text-transform: uppercase">Research project · −10 m · Hull draught</span>
+<h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(36px, 6vw, 52px); line-height: 1.06; letter-spacing: -1px">Ship hydrodynamics and seakeeping in real seas</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #DDF1F5; max-width: 780px">Ships rarely sail in calm water. This research looks at what happens when a ship meets waves: the loads on the hull, its motions and safety, and the extra power it needs. It grew out of a doctoral thesis at Osaka University on wave loads from pressures measured on the hull, and is now supported by an in-house hydrodynamics program checked against model-test data.</p>
+</div>
+</section>
+
+<!-- STATS -->
+<section style="background: #0D3F58; color: #FFFFFF; border-bottom: 1px solid #2A6A85">
+<div style="max-width: 1240px; margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">17</span><span style="font-size: 15px; color: #DDF1F5">publications on ships, 7 as first author</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">5</span><span style="font-size: 15px; color: #DDF1F5">benchmark ships used to verify the program: DTMB 5415, KCS, KVLCC2, S-VLCC and a 6750 TEU</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 1px solid #3A7891; padding-left: 20px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 40px; font-weight: 700; color: #F6C343">6</span><span style="font-size: 15px; color: #DDF1F5">student projects, including one master’s thesis</span></div>
+</div>
+</section>
+
+<!-- PROJECT -->
+<section style="background: #EAF5F9">
+<div style="max-width: 1240px; margin: 0 auto; padding: 64px 24px 80px; display: flex; flex-direction: column; gap: 40px">
+
+<div style="display: flex; flex-direction: column; gap: 18px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2; color: #0A2A3D">Four research themes</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 16px">
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px; gap: 10px"><span class="mono" style="font-size: 13px; color: #0E6E73">01</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 20px; line-height: 1.25; color: #0A2A3D">Wave loads &amp; hull strength</h3><p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; font-size: 15px">Vertical bending moment and wave loads estimated from pressure distributions measured on the model hull. This was the doctoral topic at Osaka University, later developed into a wave-load program for longitudinal hull strength.</p></div>
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px; gap: 10px"><span class="mono" style="font-size: 13px; color: #0E6E73">02</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 20px; line-height: 1.25; color: #0A2A3D">Ship motions &amp; routing</h3><p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; font-size: 15px">Realistic ship motion simulation in rough seas as the basis for safe, fuel-efficient routing, including safety evaluation of ships at anchor in open waters.</p></div>
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px; gap: 10px"><span class="mono" style="font-size: 13px; color: #0E6E73">03</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 20px; line-height: 1.25; color: #0A2A3D">Damaged-ferry seakeeping</h3><p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; font-size: 15px">Motions of passenger ferries intact and after flooding, with damage scenarios from probabilistic stability analysis.</p></div>
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px; gap: 10px"><span class="mono" style="font-size: 13px; color: #0E6E73">04</span><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 20px; line-height: 1.25; color: #0A2A3D">Resistance &amp; propulsion</h3><p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; font-size: 15px">Drag reduction and energy efficiency: energy-saving fins on a 17,500 DWT tanker, multihulls (trimaran and pentamaran), microbubble injection, and hydrofoils.</p></div>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2; color: #0A2A3D">An in-house program</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; max-width: 860px">These animations come from MARDEV’s hydrodynamics program for benchmark ships in head waves. The charts below compare program results with model-test data, showing the program is fit for design and operational studies.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 24px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
+<video autoplay muted loop playsinline preload="metadata" poster="/assets/img/sim-kvlcc2-fn014.webp" aria-label="Simulation of KVLCC2 at Fn 0.14 in head waves with heave, pitch and bending moment plots" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #0D3F58"><source src="/assets/video/sim-kvlcc2-fn014.mp4" type="video/mp4"></video>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><strong style="font-size: 17px; color: #0A2A3D">KVLCC2, Fn 0.14</strong><span style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; font-size: 15px">A large tanker in waves 1.2 times the ship length, 4 m amplitude: an example of design wave loads for a full-form, slow ship.</span></figcaption>
+</figure><figure style="margin: 0; display: flex; flex-direction: column; gap: 10px">
+<video autoplay muted loop playsinline preload="metadata" poster="/assets/img/sim-kcs-fn026.webp" aria-label="Simulation of KCS at Fn 0.26 in head waves with heave, pitch and bending moment plots" style="display: block; width: 100%; aspect-ratio: 16 / 9; background: #0D3F58"><source src="/assets/video/sim-kcs-fn026.mp4" type="video/mp4"></video>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><strong style="font-size: 17px; color: #0A2A3D">KCS, Fn 0.26</strong><span style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; font-size: 15px">A container ship at speed in short waves, 0.6 times the ship length: small motions, yet the midship bending moment still matters for structural strength.</span></figcaption>
+</figure>
+</div>
+<div style="display: flex; flex-direction: column; gap: 24px; margin-top: 8px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
+<img decoding="async" loading="lazy" srcset="/assets/img/grafik-kvlcc2-vs-uji-800w.webp 800w, /assets/img/grafik-kvlcc2-vs-uji.webp 1400w" sizes="(max-width: 900px) 100vw, 1200px" src="/assets/img/grafik-kvlcc2-vs-uji.webp" alt="Comparison with model tests" style="display: block; width: 100%; height: auto; background: #FFFFFF">
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><strong style="font-size: 16px; color: #0A2A3D">Comparison with model tests</strong><span style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; font-size: 15px">KVLCC2 at Fn 0.14: heave, pitch and added resistance from the program compared with experiments at Osaka University and INSEAN (Sadat-Hosseini et al., 2013).</span></figcaption>
+</figure><figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
+<img decoding="async" loading="lazy" srcset="/assets/img/grafik-teu6750-saghog-800w.webp 800w, /assets/img/grafik-teu6750-saghog.webp 1400w" sizes="(max-width: 900px) 100vw, 1200px" src="/assets/img/grafik-teu6750-saghog.webp" alt="Sagging and hogging of a container ship" style="display: block; width: 100%; height: auto; background: #FFFFFF">
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><strong style="font-size: 16px; color: #0A2A3D">Sagging and hogging of a container ship</strong><span style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; font-size: 15px">Midship bending moment of a 6750 TEU container ship in steep waves: the sagging–hogging difference from the program compared with model-test data.</span></figcaption>
+</figure>
+</div>
+<a href="/en/#program" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">See all animations, charts and applications on the home page →</a>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: 24px; align-items: start">
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">Publications · 17</span>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2026</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1007/s11804-026-00866-x" style="color: #0A2A3D; text-decoration: none">Resistance and Propulsion Study of a 17,500-DWT Oil Tanker Using CFD and Slender-Ship Theory: Effects of Energy-Saving Device Fins ↗</a></span><span style="font-size: 14px; color: #2C4A5C">Journal of Marine Science and Application · first author</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2023</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1063/5.0136533" style="color: #0A2A3D; text-decoration: none">Development of wave-induced loads program for global ship hull strength ↗</a></span><span style="font-size: 14px; color: #2C4A5C">AIP Conference Proceedings 2749, 020005 · first author</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2022</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1016/j.oceaneng.2022.111731" style="color: #0A2A3D; text-decoration: none">Comparative study of realistic ship motion simulation for optimal ship routing of a bulk carrier in rough seas ↗</a></span><span style="font-size: 14px; color: #2C4A5C">Ocean Engineering, 260, 111731 · first author</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2022</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1016/j.oceaneng.2022.111323" style="color: #0A2A3D; text-decoration: none">Novel safety evaluation technique for ships in offshore anchorage under rough seas conditions for optimal ship routing ↗</a></span><span style="font-size: 14px; color: #2C4A5C">Ocean Engineering, 253, 111323</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2022</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600">Multi-hull Ship Resistance</span><span style="font-size: 14px; color: #2C4A5C">DTM Press · ISBN 978-602-98412-9-9</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2021</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.37934/arfmts.83.1.1733" style="color: #0A2A3D; text-decoration: none">On the High-Performance Hydrodynamics Design of a Trimaran Fishing Vessel ↗</a></span><span style="font-size: 14px; color: #2C4A5C">J. Adv. Res. Fluid Mech. Thermal Sci., 83(1), pp. 17–33 · first author</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2021</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600">An experimental study on effects of propeller slipstream to hydrodynamic pressure on astern hull surface in waves (in Japanese)</span><span style="font-size: 14px; color: #2C4A5C">JASNAOE Annual Autumn Meeting, Yokohama, Japan</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2020</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1016/j.apor.2020.102261" style="color: #0A2A3D; text-decoration: none">Prediction of nonlinear vertical bending moment using measured pressure distribution on ship hull ↗</a></span><span style="font-size: 14px; color: #2C4A5C">Applied Ocean Research, Vol. 101, 102261 · first author</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2020</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1016/j.egyr.2019.11.157" style="color: #0A2A3D; text-decoration: none">Determination the optimum location for microbubble drag reduction method in self-propelled barge model: An experimental approach ↗</a></span><span style="font-size: 14px; color: #2C4A5C">Energy Reports, 6 Suppl. 2, pp. 774–783</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2020</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://www.iwwwfb.org/Abstracts/iwwwfb35/iwwwfb35_20.pdf" style="color: #0A2A3D; text-decoration: none">Prediction of wave loads with measured unsteady pressure distribution on ship hull surface ↗</a></span><span style="font-size: 14px; color: #2C4A5C">35th International Workshop on Water Waves and Floating Bodies, Seoul, Korea</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2020</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600">Prediction of nonlinear wave loads using measured pressure distribution on ship hull</span><span style="font-size: 14px; color: #2C4A5C">Int. Symposium on Novel Computational and Experimental Methods for Complicated Fluid-Structure Interactions, Fukuoka, Japan · first author</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2019</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://www.akademiabaru.com/submit/index.php/arfmts/article/view/2415" style="color: #0A2A3D; text-decoration: none">Micro-bubble drag reduction by multi discrete hole plate on self-propelled barge ship model ↗</a></span><span style="font-size: 14px; color: #2C4A5C">J. Adv. Res. Fluid Mech. Thermal Sci., 53(1), pp. 111–121</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2019</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1115/OMAE2019-95273" style="color: #0A2A3D; text-decoration: none">Improvement of wave loads estimation from spatial pressure distribution on ship hull ↗</a></span><span style="font-size: 14px; color: #2C4A5C">ASME OMAE2019, Glasgow, UK · first author</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2018</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1007/s11804-018-0028-2" style="color: #0A2A3D; text-decoration: none">Comparison of microbubble and air layer injection with porous media for drag reduction on a self-propelled barge ship model ↗</a></span><span style="font-size: 14px; color: #2C4A5C">Journal of Marine Science and Application, 17, pp. 165–172</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2017</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1007/s11804-017-1401-2" style="color: #0A2A3D; text-decoration: none">Interference resistance of pentamaran ship model with asymmetric outrigger configurations ↗</a></span><span style="font-size: 14px; color: #2C4A5C">Journal of Marine Science and Application, 16, pp. 42–47</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2017</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1016/j.proeng.2017.08.123" style="color: #0A2A3D; text-decoration: none">Experimental Study of Total Hull Resistance of Pentamaran Ship Model with Varying Configuration of Outer Side Hull ↗</a></span><span style="font-size: 14px; color: #2C4A5C">Procedia Engineering, 10th MARTEC 2016, Dhaka, Bangladesh</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2015</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D; font-weight: 600"><a href="https://doi.org/10.1615/InterJFluidMechRes.v42.i1.60" style="color: #0A2A3D; text-decoration: none">Experimental study resistances of asymmetrical pentamaran model with separation and staggered hull variation of inner side-hulls ↗</a></span><span style="font-size: 14px; color: #2C4A5C">International Journal of Fluid Mechanics Research, 42(1), pp. 82–94</span></div></div>
+<a href="/en/publications" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">See all publications →</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">Grant</span>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2024–2025</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Seakeeping Performance Prediction of Passenger Ferries in Intact and Damaged Conditions Based on Probabilistic Damage Stability Using CFD and Potential Flow Theory</span><span style="font-size: 14px; color: #2C4A5C">PUTI Q2, Universitas Indonesia · PI</span></div></div>
+<a href="/en/grants" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">See all grants →</a>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">Student research · 6</span>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2023</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Seakeeping of a 2500 GT passenger ferry, intact and damaged</span><span style="font-size: 14px; color: #2C4A5C">Muhammad Fadhilal Mursyid</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2024</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Bulk carrier resistance at model and full scale</span><span style="font-size: 14px; color: #2C4A5C">Achmad Hammam Gopar</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2024</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Resistance and propulsion of a 17,500 DWT tanker with energy-saving fins</span><span style="font-size: 14px; color: #2C4A5C">Leonardo Guntur Tarigan</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2025</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Container stacking and intact stability of a supply vessel in the Java Sea</span><span style="font-size: 14px; color: #2C4A5C">Muhammad Akbar Ramsha Oetama</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2025</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Hydrofoil angle of attack for lower resistance on the Solar Boat Team Indonesia boat</span><span style="font-size: 14px; color: #2C4A5C">M Daffa Nafis Shafwan</span></div></div>
+<div style="display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; border-top: 1px solid #DCEBF0; padding-top: 12px"><span class="mono" style="font-size: 13px; color: #0E6E73">2026</span><div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 15px; line-height: 1.5; color: #0A2A3D">Master’s thesis: spacing and angle of attack of tandem hydrofoils</span><span style="font-size: 14px; color: #2C4A5C">M Daffa Nafis Shafwan</span></div></div>
+<a href="/en/supervision#g-ship" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">See student project details →</a>
+</div>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #C3DDE6; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2; color: #0A2A3D">What comes next</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #2C4A5C; max-width: 860px">The program is being extended for two needs of the maritime industry in the coming years: autonomous ships, with motion and environmental load prediction as the basis for control and route planning of uncrewed vessels, and low-emission ship design, assessing hull form, wind assistance and new fuels from the earliest design stage.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 20px"><a href="/en/industry" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">Technical studies and training for industry →</a> <a href="/en/supervision" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">Supervision topics →</a></div>
+</div>
+
+<a href="/en/#research" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">← Back to all research areas</a>
+</div>
+</section>
+
+
+<!-- CTA -->
+<section id="kontak" class="tg" style="background-color: #0A2E44; color: #FFFFFF">
+<div style="max-width: 1240px; margin: 0 auto; padding: 72px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 20px">
+<div style="background: #0D3F58; border: 1px solid #3A7891; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2">Need a ship performance or safety study?</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #DDF1F5">For research partnerships, or studies of wave loads, ship motions, or resistance and propulsion, please get in touch by email.</p>
+<a href="mailto:waskito@eng.ui.ac.id?subject=Ship%20hydrodynamics%20research%20collaboration" style="background: #F6C343; color: #0A2A3D; text-decoration: none; font-weight: 600; padding: 14px 24px; min-height: 48px; box-sizing: border-box; display: flex; align-items: center; align-self: flex-start">Email waskito@eng.ui.ac.id</a>
+</div>
+<div style="background: #EAF5F9; color: #0A2A3D; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 13px; letter-spacing: 1.5px; color: #0E6E73; text-transform: uppercase">For prospective students</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; line-height: 1.2">Want to research ship hydrodynamics?</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #2C4A5C">See the undergraduate, master’s and PhD topics currently running at MARDEV.</p>
+<a href="/en/supervision" style="color: #0E6E73; font-weight: 600; text-decoration: none; font-size: 15px">See supervision topics →</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background: #04131F; color: #CFE9F0; border-top: 1px solid #2A6A85">
+<div style="max-width: 1240px; margin: 0 auto; padding: 36px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; font-size: 14px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="color: #FFFFFF; font-family: 'Space Grotesk', sans-serif; font-weight: 600">Kurniawan Teguh Waskito, S.T., M.T., Ph.D.</span>
+<span>Department of Mechanical Engineering &amp; Tropical Renewable Energy Center, Faculty of Engineering, Universitas Indonesia · Depok 16426, Indonesia</span>
+</div>
+<div class="mono" style="display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; align-items: center">
+<a href="https://orcid.org/0000-0002-9719-9559" style="color: #DDF1F5">ORCID</a>
+<a href="https://scholar.google.com/citations?user=eq8t2dUAAAAJ&amp;hl=en" style="color: #DDF1F5">Google Scholar</a>
+<a href="https://scholar.ui.ac.id/en/persons/kurniawan-teguh-waskito/" style="color: #DDF1F5">Scholar UI</a>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=56517004200" style="color: #DDF1F5">Scopus ID 56517004200</a>
+<a href="https://www.linkedin.com/in/kurniawan-teguh-waskito-1046b752/" style="color: #DDF1F5">LinkedIn</a>
+<span>© 2026</span>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
